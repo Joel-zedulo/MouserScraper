@@ -1,0 +1,8 @@
+SPI NOR Flash
+SPI PSRAM
+Quad SPI NOR Flash
+QSPI PSRAM
+Octal SPI NOR Flash
+Octal PSRAM
+HyperFlash NOR
+HyperRAM

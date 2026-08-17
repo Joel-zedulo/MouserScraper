@@ -1,0 +1,8 @@
+*.swp
+*.bkp
+*.bak
+*.pyc
+
+__pycache__/
+.venv/
+output/
