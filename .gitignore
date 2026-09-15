@@ -3,6 +3,9 @@
 *.bak
 *.pyc
 
+mouser_auth.json
+external_memory_devices.txt
+
 __pycache__/
 .venv/
 output/
