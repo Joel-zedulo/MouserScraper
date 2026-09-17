@@ -95,7 +95,7 @@ def main():
 
                 mcu_flag = " ⚠️ MCU?" if is_mcu(part) else ""
 
-                if is_mcu(part): continue # Skip MCU
+#                if is_mcu(part): continue # Skip MCU
 
                 print(f"  {i+1}. {mfr} {part}{mcu_flag}")
                 print(f"     Density/Spec: {spec}")

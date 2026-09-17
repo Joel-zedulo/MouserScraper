@@ -5,7 +5,7 @@ from urllib.parse import quote_plus
 
 from patchright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 
-PAGELOAD_TIMEOUT_SECS = 8
+PAGELOAD_TIMEOUT_SECS = 10
 STATE_FILE            = "mouser_auth.json"
 OUTPUT_DIR            = "output"
 
@@ -230,7 +230,7 @@ def main():
                 else:
                     print(
                         "  -> Download button did not appear within "
-                        "{PAGELOAD_TIMEOUT_SECS} seconds. "
+                        f"{PAGELOAD_TIMEOUT_SECS} seconds. "
                         f"No downloadable results for '{kw}'."
                     )
                     continue
